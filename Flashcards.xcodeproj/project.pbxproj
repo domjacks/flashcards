@@ -28,18 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35605F462E58825E004BD351 /* flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35605F532E588260004BD351 /* flashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35605F5D2E588260004BD351 /* flashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35605F462E58825E004BD351 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35605F532E588260004BD351 /* FlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35605F5D2E588260004BD351 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		358905382E588FDA00CDD74B /* Exceptions for "flashcards" folder in "flashcards" target */ = {
+		358905382E588FDA00CDD74B /* Exceptions for "flashcards" folder in "Flashcards" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 35605F452E58825E004BD351 /* flashcards */;
+			target = 35605F452E58825E004BD351 /* Flashcards */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -47,7 +47,7 @@
 		35605F482E58825E004BD351 /* flashcards */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				358905382E588FDA00CDD74B /* Exceptions for "flashcards" folder in "flashcards" target */,
+				358905382E588FDA00CDD74B /* Exceptions for "flashcards" folder in "Flashcards" target */,
 			);
 			path = flashcards;
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 		35605F472E58825E004BD351 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35605F462E58825E004BD351 /* flashcards.app */,
-				35605F532E588260004BD351 /* flashcardsTests.xctest */,
-				35605F5D2E588260004BD351 /* flashcardsUITests.xctest */,
+				35605F462E58825E004BD351 /* Flashcards.app */,
+				35605F532E588260004BD351 /* FlashcardsTests.xctest */,
+				35605F5D2E588260004BD351 /* FlashcardsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35605F452E58825E004BD351 /* flashcards */ = {
+		35605F452E58825E004BD351 /* Flashcards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35605F672E588260004BD351 /* Build configuration list for PBXNativeTarget "flashcards" */;
+			buildConfigurationList = 35605F672E588260004BD351 /* Build configuration list for PBXNativeTarget "Flashcards" */;
 			buildPhases = (
 				35605F422E58825E004BD351 /* Sources */,
 				35605F432E58825E004BD351 /* Frameworks */,
@@ -136,17 +136,17 @@
 			fileSystemSynchronizedGroups = (
 				35605F482E58825E004BD351 /* flashcards */,
 			);
-			name = flashcards;
+			name = Flashcards;
 			packageProductDependencies = (
 				358905312E588DCD00CDD74B /* Supabase */,
 			);
 			productName = flashcards;
-			productReference = 35605F462E58825E004BD351 /* flashcards.app */;
+			productReference = 35605F462E58825E004BD351 /* Flashcards.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35605F522E588260004BD351 /* flashcardsTests */ = {
+		35605F522E588260004BD351 /* FlashcardsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35605F6A2E588260004BD351 /* Build configuration list for PBXNativeTarget "flashcardsTests" */;
+			buildConfigurationList = 35605F6A2E588260004BD351 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */;
 			buildPhases = (
 				35605F4F2E588260004BD351 /* Sources */,
 				35605F502E588260004BD351 /* Frameworks */,
@@ -160,16 +160,16 @@
 			fileSystemSynchronizedGroups = (
 				35605F562E588260004BD351 /* flashcardsTests */,
 			);
-			name = flashcardsTests;
+			name = FlashcardsTests;
 			packageProductDependencies = (
 			);
 			productName = flashcardsTests;
-			productReference = 35605F532E588260004BD351 /* flashcardsTests.xctest */;
+			productReference = 35605F532E588260004BD351 /* FlashcardsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		35605F5C2E588260004BD351 /* flashcardsUITests */ = {
+		35605F5C2E588260004BD351 /* FlashcardsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35605F6D2E588260004BD351 /* Build configuration list for PBXNativeTarget "flashcardsUITests" */;
+			buildConfigurationList = 35605F6D2E588260004BD351 /* Build configuration list for PBXNativeTarget "FlashcardsUITests" */;
 			buildPhases = (
 				35605F592E588260004BD351 /* Sources */,
 				35605F5A2E588260004BD351 /* Frameworks */,
@@ -183,11 +183,11 @@
 			fileSystemSynchronizedGroups = (
 				35605F602E588260004BD351 /* flashcardsUITests */,
 			);
-			name = flashcardsUITests;
+			name = FlashcardsUITests;
 			packageProductDependencies = (
 			);
 			productName = flashcardsUITests;
-			productReference = 35605F5D2E588260004BD351 /* flashcardsUITests.xctest */;
+			productReference = 35605F5D2E588260004BD351 /* FlashcardsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 35605F412E58825E004BD351 /* Build configuration list for PBXProject "flashcards" */;
+			buildConfigurationList = 35605F412E58825E004BD351 /* Build configuration list for PBXProject "Flashcards" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -230,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35605F452E58825E004BD351 /* flashcards */,
-				35605F522E588260004BD351 /* flashcardsTests */,
-				35605F5C2E588260004BD351 /* flashcardsUITests */,
+				35605F452E58825E004BD351 /* Flashcards */,
+				35605F522E588260004BD351 /* FlashcardsTests */,
+				35605F5C2E588260004BD351 /* FlashcardsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		35605F552E588260004BD351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35605F452E58825E004BD351 /* flashcards */;
+			target = 35605F452E58825E004BD351 /* Flashcards */;
 			targetProxy = 35605F542E588260004BD351 /* PBXContainerItemProxy */;
 		};
 		35605F5F2E588260004BD351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35605F452E58825E004BD351 /* flashcards */;
+			target = 35605F452E58825E004BD351 /* Flashcards */;
 			targetProxy = 35605F5E2E588260004BD351 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flashcards";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flashcards";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flashcards";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flashcards";
 			};
 			name = Release;
 		};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35605F412E58825E004BD351 /* Build configuration list for PBXProject "flashcards" */ = {
+		35605F412E58825E004BD351 /* Build configuration list for PBXProject "Flashcards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35605F652E588260004BD351 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35605F672E588260004BD351 /* Build configuration list for PBXNativeTarget "flashcards" */ = {
+		35605F672E588260004BD351 /* Build configuration list for PBXNativeTarget "Flashcards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35605F682E588260004BD351 /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35605F6A2E588260004BD351 /* Build configuration list for PBXNativeTarget "flashcardsTests" */ = {
+		35605F6A2E588260004BD351 /* Build configuration list for PBXNativeTarget "FlashcardsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35605F6B2E588260004BD351 /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35605F6D2E588260004BD351 /* Build configuration list for PBXNativeTarget "flashcardsUITests" */ = {
+		35605F6D2E588260004BD351 /* Build configuration list for PBXNativeTarget "FlashcardsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35605F6E2E588260004BD351 /* Debug */,
